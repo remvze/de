@@ -1,0 +1,45 @@
+---
+import '@/styles/global.css';
+
+interface Props {
+  description?: string;
+  og?: string;
+  title?: string;
+}
+
+const title = Astro.props.title
+  ? `${Astro.props.title} — D.E.`
+  : 'D.E.: Directory of Design Engineers';
+
+const description =
+  Astro.props.description || 'A curated list of exceptional design engineers.';
+
+const og = Astro.props.og || '/og.png';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width" name="viewport" />
+    <link href="/favicon.svg" rel="icon" type="image/svg+xml" />
+    <meta content={Astro.generator} name="generator" />
+    <meta content="#18181b" name="theme-color" />
+
+    <title>{title}</title>
+    <meta content={title} name="title" />
+    <meta content={description} name="description" />
+
+    <meta content={title} property="og:title" />
+    <meta content={description} property="og:description" />
+    <meta content="D.E." property="og:site_name" />
+    <meta content="https://de.mvze.net/" property="og:url" />
+    <meta content="website" property="og:type" />
+    <meta content={`https://de.mvze.net${og}`} property="og:image" />
+
+    <link href="/sitemap-index.xml" rel="sitemap" />
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>

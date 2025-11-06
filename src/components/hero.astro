@@ -1,0 +1,34 @@
+<section class="hero">
+  <h1>D.E.</h1>
+  <p class="desc">Curated list of Design Engineers.</p>
+  <p class="curator">
+    Created by <a href="https://x.com/remvze">Maze Heart</a>.
+  </p>
+</section>
+
+<style>
+  .hero {
+    padding: 120px 0 60px;
+
+    & h1 {
+      margin-bottom: 12px;
+      font-weight: 500;
+      color: var(--color-foreground);
+    }
+
+    & p {
+      font-size: var(--font-sm);
+      color: var(--color-foreground-subtle);
+
+      &:not(:last-of-type) {
+        margin-bottom: 8px;
+      }
+
+      & a {
+        color: var(--color-foreground);
+        text-decoration: underline;
+        text-decoration-style: dotted;
+      }
+    }
+  }
+</style>

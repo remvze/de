@@ -1,0 +1,14 @@
+---
+import Layout from '@/layouts/layout.astro';
+import { Container } from '@/components/container';
+import Hero from '@/components/hero.astro';
+import List from '@/components/list.astro';
+import { list } from '@/data/list';
+---
+
+<Layout>
+  <Container>
+    <Hero />
+    <List list={list} />
+  </Container>
+</Layout>

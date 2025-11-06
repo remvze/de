@@ -1,0 +1,24 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: var(--font-base);
+  color: var(--color-foreground);
+  background-color: var(--color-neutral-50);
+}
+
+::selection {
+  color: var(--color-foreground);
+  background-color: var(--color-neutral-300);
+}
