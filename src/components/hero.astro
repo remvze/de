@@ -4,6 +4,11 @@
   <p class="curator">
     Created by <a href="https://x.com/remvze">Maze Heart</a>.
   </p>
+  <div class="source">
+    <a href="https://github.com/remvze/de" rel="noreferrer" target="_blank">
+      Source Code</a
+    >
+  </div>
 </section>
 
 <style>
@@ -28,6 +33,47 @@
         color: var(--color-foreground);
         text-decoration: underline;
         text-decoration-style: dotted;
+        text-underline-offset: 4px;
+      }
+    }
+
+    & .source {
+      margin-top: 24px;
+
+      & a {
+        font-size: var(--font-xsm);
+        color: var(--color-foreground-subtler);
+        text-decoration: underline;
+        text-decoration-style: dotted;
+        text-underline-offset: 4px;
+        transition: 0.2s;
+
+        &:hover {
+          color: var(--color-foreground-subtle);
+
+          &::after {
+            opacity: 1;
+            transform: translateX(0) scaleX(1);
+          }
+        }
+
+        &:active {
+          &::after {
+            margin-left: 6px;
+          }
+        }
+
+        &::after {
+          display: inline-flex;
+          margin-left: 4px;
+          color: var(--color-foreground);
+          text-decoration: none;
+          content: '→';
+          opacity: 0;
+          transition: 0.2s;
+          transform: translateX(-2px) scaleX(0.5);
+          transform-origin: left center;
+        }
       }
     }
   }
