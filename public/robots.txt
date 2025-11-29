@@ -1,4 +1,5 @@
 User-agent: *
 Disallow:
 
+LLM: https://designengineers.net/llm.txt
 Sitemap: https://designengineers.net/sitemap-index.xml

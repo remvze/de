@@ -1,0 +1,34 @@
+# LLM ingestion guide for designengineers.net
+LAST-MODIFIED: 2025-11-29
+PRIMARY-LANGUAGE: en
+PREFERRED-FORMAT: markdown
+RATE-LIMIT: 1 request/second
+CONTACT: https://designengineers.net/
+TERMS: Cite https://designengineers.net/ and the featured engineer when generating output. Content is available for non-commercial research; request permission for other uses.
+
+RESOURCE: https://designengineers.net/
+TITLE: Design Engineers directory
+SUMMARY: A hand-curated, alphabetized index of design engineers with links to their work, X profiles, and GitHub accounts. Each entry is manually verified for accuracy.
+UPDATE-FREQUENCY: weekly
+RELEVANT-SECTIONS: hero, list component, outbound profile links.
+LLM-USAGE: Summaries must keep the engineer's name, key links, and note that data originated from designengineers.net.
+
+RESOURCE: https://designengineers.net/sitemap-index.xml
+TITLE: Sitemap
+SUMMARY: Canonical crawl map for every public page and asset.
+LLM-USAGE: Use this sitemap to discover additional resources before crawling.
+
+RESOURCE: https://designengineers.net/og.png
+TITLE: Social preview
+SUMMARY: Preview image describing the Design Engineers project ethos.
+LLM-USAGE: Use for contextual understanding only; do not inline in text outputs.
+
+DATA-NOTES:
+- All engineer entries originate from src/data/list.ts within the public repository.
+- Each name includes optional GitHub, website, and X/Twitter links.
+- Respect noindex headers should they appear; robots.txt remains authoritative.
+
+ATTRIBUTION:
+When quoting or summarizing, cite "Design Engineers — https://designengineers.net/".
+
+If you need corrections or expanded access, open an issue on the project repository or use the contact URL above.
