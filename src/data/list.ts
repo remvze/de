@@ -180,6 +180,12 @@ const designEngineers: DesignEngineers = [
     website: 'https://rene.wang/en-US',
     x: 'https://x.com/rea1DonandTrump',
   },
+  {
+    github: 'https://github.com/amitmerchant1990',
+    name: 'Amit Merchant',
+    website: 'https://amitmerchant.com',
+    x: 'https://x.com/amit_merchant',
+  },
 ];
 
 export const list = designEngineers
