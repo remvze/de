@@ -192,6 +192,34 @@ const designEngineers: DesignEngineers = [
     website: 'https://www.dmytro.fyi/',
     x: 'https://x.com/dmytro_kondakov',
   },
+  {
+    github: 'https://github.com/molefrog',
+    name: 'Alexey Taktarov',
+    website: 'https://molefrog.com/',
+    x: 'https://x.com/mlfrg',
+  },
+  {
+    github: 'https://github.com/tikhonbelousko',
+    name: 'Tikhon Belousko',
+    website: 'https://www.tikhon.io/',
+    x: 'https://x.com/_tikhon',
+  },
+  {
+    name: 'Lauge',
+    x: 'https://x.com/0xlauge',
+  },
+  {
+    github: 'https://github.com/bdsqqq',
+    name: 'Igor Bedesqui',
+    website: 'https://bedes.qui.gg/',
+    x: 'https://x.com/bedesqui',
+  },
+  {
+    github: 'https://github.com/brenolasserre',
+    name: 'Breno Lasserre',
+    website: 'https://www.brenolasserre.com/',
+    x: 'https://x.com/brenolasserre',
+  },
 ];
 
 export const list = designEngineers
