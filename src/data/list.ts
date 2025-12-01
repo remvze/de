@@ -336,6 +336,29 @@ const designEngineers: DesignEngineers = [
     website: 'https://thepoe.xyz/',
     x: 'https://x.com/its_thepoe/',
   },
+  {
+    github: 'https://github.com/evangelinensy',
+    name: 'Evangeline',
+    website: 'https://evangeline.design/',
+    x: 'https://x.com/eggsvans',
+  },
+  {
+    github: 'https://github.com/Saurabhdaswant',
+    name: 'Saurabh Daswant',
+    website: 'https://saurabhdaswant.com/',
+    x: 'https://x.com/saurabhdaswant',
+  },
+  {
+    github: 'https://github.com/ajaypatelaj',
+    name: 'Ajay Patel',
+    x: 'https://x.com/ajaypatel_aj',
+  },
+  {
+    github: 'https://github.com/jessejanderson',
+    name: 'Jesse J. Anderson',
+    website: 'https://jessej.design/',
+    x: 'https://x.com/adhdjesse',
+  },
 ];
 
 export const list = designEngineers
