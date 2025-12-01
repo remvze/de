@@ -371,6 +371,53 @@ const designEngineers: DesignEngineers = [
     website: 'https://hello-mat.com/',
     x: 'https://x.com/daformat',
   },
+  {
+    github: 'https://github.com/lichin-lin',
+    name: 'Lichin Lin',
+    website: 'https://designtips.today/',
+    x: 'https://x.com/lichinlin',
+  },
+  {
+    github: 'https://github.com/Smintfy',
+    name: 'Smintfy',
+    website: 'https://www.smintfy.com/',
+    x: 'https://x.com/smintfy',
+  },
+  {
+    github: 'https://github.com/kaftarmery',
+    name: 'Mery Kaftar',
+    website: 'https://www.mery.codes/',
+    x: 'https://x.com/merycodes',
+  },
+  {
+    github: 'https://github.com/PixelJanitor',
+    name: 'Derek Briggs',
+    website: 'https://www.pixeljanitor.com/',
+    x: 'https://x.com/PixelJanitor',
+  },
+  {
+    github: 'https://github.com/joe-bell',
+    name: 'Joe Bell',
+    website: 'https://joebell.studio/',
+    x: 'https://x.com/joebell_',
+  },
+  {
+    github: 'https://github.com/bradlc',
+    name: 'Brad Cornes',
+    website: 'https://bradley.dev/',
+    x: 'https://x.com/bradlc',
+  },
+  {
+    github: 'https://github.com/alexcarpenter',
+    name: 'Alex Carpenter',
+    website: 'https://alexcarpenter.me/',
+    x: 'https://x.com/hybrid_alex',
+  },
+  {
+    name: 'Will Thomson',
+    website: 'https://www.over-stimulated.com/',
+    x: 'https://x.com/willthomson__',
+  },
 ];
 
 export const list = designEngineers
