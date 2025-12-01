@@ -365,6 +365,12 @@ const designEngineers: DesignEngineers = [
     website: 'https://baothiento.com/',
     x: 'https://x.com/baothiento',
   },
+  {
+    github: 'https://github.com/daformat',
+    name: 'Mathieu Jouhet',
+    website: 'https://hello-mat.com/',
+    x: 'https://x.com/daformat',
+  },
 ];
 
 export const list = designEngineers
