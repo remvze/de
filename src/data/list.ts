@@ -424,6 +424,11 @@ const designEngineers: DesignEngineers = [
     website: 'https://micah.sh/',
     x: 'https://x.com/micahbrich',
   },
+  {
+    github: 'https://github.com/nattui',
+    name: 'Natt Nguyen',
+    website: 'https://natt.sh',
+  },
 ];
 
 export const list = designEngineers
