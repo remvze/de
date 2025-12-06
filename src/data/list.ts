@@ -12,6 +12,12 @@ export type DesignEngineers = Array<DesignEngineer>;
 
 const designEngineers: DesignEngineers = [
   {
+    github: 'https://github.com/Abil-Shrestha',
+    name: 'Abil Shrestha',
+    website: 'https://www.abilshr.com/',
+    x: 'https://x.com/_abilshr',
+  },
+  {
     github: 'https://github.com/raunofreiberg',
     name: 'Rauno Freiberg',
     website: 'https://rauno.me/',
